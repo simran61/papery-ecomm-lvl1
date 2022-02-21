@@ -36,11 +36,6 @@
     border-bottom: 1px solid var(--grey-color);
 }
 
-ul>li{
-    margin: 1.5rem 0;
-    font-size: 1.2rem;
-}
-
 table {
     width: 100%;
   }
