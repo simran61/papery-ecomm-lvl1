@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Papery | Cart Page</title>
+    <link rel="stylesheet" href="https://doraui-simran.netlify.app/components/component.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../home.css">
+    <link rel="stylesheet" href="cart.css">
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav>
+        <div class="nav_md flex space_btw align_center">
+            <div class="nav_md_right flex">
+                <p class="pd_lr_sm">English<i class="mr_sm fa-solid fa-angle-down"></i></p>
+                <p class="pd_lr_sm">USD<i class="mr_sm fa-solid fa-angle-down"></i></p>
+            </div>
+            <div class="nav_md_center">
+                <a href="../index.html"><img src="../assets/logo.png" alt=""></a>
+            </div>
+            <div class="nav_md_left flex align_center">
+                <a href="./authentication/logout.html"><i class="fa-solid fa-arrow-right-from-bracket"></i></a>
+                <a href="./authentication/signup.html"><i class="fa-regular fa-user"></i></a>
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <a href="./wishlist/wishlist.html"><i class="fa-regular fa-heart"></i></a>
+                <a href="./cartManagement/cart.html"><i class="fa-brands fa-opencart"></i></a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="cart">
+        <h3 class="cursive color_primary text_center margin_sm">My cart (2)</h3>
+        <div class="flex space_around">
+            <div class="show_cart_products">
+                <div class="card card6 mr_2">
+                    <div class="section1">
+                        <div class="c6_card_img">
+                            <img src="../assets/product_2.png" alt="">
+                        </div>
+                        <div class="card_headings padding_sm">
+                            <p>Elegence Papery</p>
+
+                            <p class="p_price bold mr_tb_sm">$21.50</p>
+                            <div class="rating">
+                                <i class="yellow fa-solid fa-star"></i>
+                                <i class="yellow fa-solid fa-star"></i>
+                                <i class="yellow fa-solid fa-star"></i>
+                                <i class="yellow fa-solid fa-star"></i>
+                            </div>
+                            <span class="p_price bold mr_tb_sm">Quantity:</span> <button
+                                class="btn_quan btn">+</button><span class="bold size_sm">1</span><button
+                                class="btn_quan btn">-</button>
+                        </div>
+                    </div>
+                    <div class="card_links padding_sm">
+                        <button class="btn_cart btn_outline btn"><i class="mr_sm fas fa-shopping-cart"></i>Remove from cart</button>
+                        <button class="btn_cart btn"><i class="mr_sm fas fa-heart"></i>Move to wishlist</button>
+                    </div>
+                </div>
+
+                <div class="card card6 mr_2">
+                    <div class="section1">
+                        <div class="c6_card_img">
+                            <img src="../assets/product_12.png" alt="">
+                        </div>
+                        <div class="card_headings padding_sm">
+                            <p>Hello Ocean Set</p>
+                            <p class="p_discount_price mr_tb_sm grey_text strike bold">$20.15</p><span
+                                class="danger_color bold">$11.75</span>
+                            <div class="rating">
+                                <i class="yellow fa-solid fa-star"></i>
+                                <i class="yellow fa-solid fa-star"></i>
+                                <i class="yellow fa-solid fa-star"></i>
+                                <i class="yellow fa-solid fa-star"></i>
+                                <i class="yellow fa-solid fa-star"></i>
+                            </div>
+                            <span class="p_price bold mr_tb_sm">Quantity:</span> <button
+                                class="btn_quan btn">+</button><span class="bold size_sm">1</span><button
+                                class="btn_quan btn">-</button>
+                        </div>
+                    </div>
+                    <div class="card_links padding_sm">
+                        <button class="btn_cart btn_outline btn"><i class="mr_sm fas fa-shopping-cart"></i>Remove from
+                            cart</button>
+                        <button class="btn_cart btn"><i class="mr_sm fas fa-heart"></i>Move to wishlist</button>
+                    </div>
+                </div>
+            </div>
+            <div class="price_table text_center mr_3 pd_md">
+                <h2 class="pd_1_tb">Price Table</h2>
+                <table>
+                    <tr>
+                        <td>Price (2 items)</td>
+                        <td>$33.25</td>
+                    </tr>
+                    <tr>
+                        <td>Discount</td>
+                        <td>- $10</td>
+
+                    </tr>
+                    <tr>
+                        <td>Delivery Charges</td>
+                        <td>$5</td>
+
+                    </tr>
+                    <tr>
+                        <th>TOTAL AMOUNT</th>
+                        <th>$28.25</th>
+                    </tr>
+
+                </table>
+                <p class="mr_tb_md">You will save $12 on this order</p>
+                <button class="btn_ecom">Place order</button>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

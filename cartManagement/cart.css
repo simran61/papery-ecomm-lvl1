@@ -1,0 +1,51 @@
+.card6{
+    width: 30rem;
+}
+
+.card_sm{
+    width: 23rem;
+}
+
+.c6_card_img{
+    background-color: var(--light-grey-color);
+    width: 9rem;
+}
+
+.c6_card_img>img{
+    width: 9rem;
+    height: 9rem;
+}
+
+.btn_quan{
+    padding: 0.5rem 1rem;
+    background-color: var(--light-primary-color);
+}
+
+.btn_cart{
+    padding: 0.5rem 0.7rem;
+    background-color: var(--light-primary-color);
+    color: var(--black-color);
+}
+
+.btn_outline{
+    background-color: transparent;
+    border: 2px solid var(--light-primary-color);
+}
+
+.price_table{
+    background-color: var(--light-grey-color);
+    width: 25rem;
+    height: fit-content;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th{
+    border: 1px solid var(--light-bg-color);
+    text-align: left;
+    padding: 0.5rem;
+}
