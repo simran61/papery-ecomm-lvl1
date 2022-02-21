@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Designing Papery</title>
+    <link rel="stylesheet" href="https://doraui-simran.netlify.app/components/component.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../home.css">
+    <link rel="stylesheet" href="products.css">
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav>
+        <div class="nav_top flex space_btw">
+            <p>Free shipping for order above $50</p>
+            <div class="nav_top_right flex align_center">
+                <p class="border_right pd_lr_sm"><i class="mr_sm fa-solid fa-location-dot"></i>Store Location</p>
+                <p class="border_right pd_lr_sm"><i class="mr_sm fa-solid fa-truck-fast"></i>Order Now</p>
+                <p class="border_right pd_lr_sm">English<i class="mr_sm fa-solid fa-angle-down"></i></p>
+                <p class="pd_lr_sm">USD<i class="mr_sm fa-solid fa-angle-down"></i></p>
+                <i class="close_icon fa-solid fa-xmark"></i>
+            </div>
+        </div>
+        <div class="nav_md flex space_btw align_center">
+            <div class="nav_md_right flex">
+                <p class="pd_lr_sm">English<i class="mr_sm fa-solid fa-angle-down"></i></p>
+                <p class="pd_lr_sm">USD<i class="mr_sm fa-solid fa-angle-down"></i></p>
+            </div>
+            <div class="nav_md_center">
+                <a href="../index.html"><img src="../assets/logo.png" alt=""></a>
+            </div>
+            <div class="nav_md_left flex align_center">
+                <a href="./authentication/logout.html"><i class="fa-solid fa-arrow-right-from-bracket"></i></a>
+                <a href="./authentication/signup.html"><i class="fa-regular fa-user"></i></a>
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <a href="./wishlist/wishlist.html"><i class="fa-regular fa-heart"></i></a>
+                <a href="./cartManagement/cart.html"><i class="fa-brands fa-opencart"></i></a>
+            </div>
+        </div>
+        <div class="nav_btm flex space_btw">
+            <a href="../index.html">HOME</a>
+            <a href="#">ABOUT</a>
+            <a href="productListing/products.html">SHOP</a>
+            <a href="productListing/products.html">PRODUCT</a>
+            <a href="wishlist/wishlist.html">WISHLIST</a>
+            <a href="cartManagement/cart.html">ORDER</a>
+        </div>
+    </nav>
+
+    <section>
+        <div class="product_banner flex">
+            <img src="../assets/product_banner_img.png" alt="" class="banner_img">
+            <div class="flex_50 text_center">
+                <p class="banner_heading text_center cursive color_primary">Summers Special</p>
+                <p class="inline">EVERYTHING WITH CODE</p>
+                <img src="../assets/discount.png" alt="" class="discount_img">
+                <h1 class="size_xl mr_1 dull_black">30% OFF</h1>
+                <button class="pointer btn_ecom btn_shop_now">SHOP NOW</button>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="flex">
+        <div class="filters mr_3 pd_sm">
+            <div class="search_product flex space_btw">
+                <input type="text" placeholder="Search products..">
+                <i class="size_sm grey_text fa-solid fa-magnifying-glass"></i>
+            </div>
+
+            <div class="table_categories">
+                <p class="filter_headings">Product Categories</p>
+                <table>
+                    <tr>
+                        <td>New In</td>
+                        <td>74</td>
+                    </tr>
+                    <tr>
+                        <td>Dairies & Planners</td>
+                        <td>23</td>
+                    </tr>
+                    <tr>
+                        <td>Notebook</td>
+                        <td>37</td>
+                    </tr>
+                    <tr>
+                        <td>Stationary</td>
+                        <td>42</td>
+                    </tr>
+                    <tr>
+                        <td>Wedding</td>
+                        <td>12</td>
+                    </tr>
+                    <tr>
+                        <td>Cards</td>
+                        <td>34</td>
+                    </tr>
+                    <tr>
+                        <td>Phot Books</td>
+                        <td>15</td>
+                    </tr>
+                    <tr>
+                        <td>Gifts</td>
+                        <td>32</td>
+                    </tr>
+                    <tr>
+                        <td>Inspiration</td>
+                        <td>17</td>
+                    </tr>
+                </table>
+            </div>
+            <hr>
+
+            <button class="btn color_primary filter_btn"><i class="mr_sm fa-solid fa-xmark"></i>Clear all filters</button>
+
+            <div class="slider_filter_price">
+                <p class="filter_headings">Filter by price</p>
+                <div class="flex space_btw">
+
+                    <div class="slider">
+                        <div class="flex space_btw">
+                            <div class="size_md">0</div>
+                            <div class="value size_md">640</div>
+                            <div class="size_md">1500</div>
+                        </div>
+                        <input type="range" min="0" max="1500" value="640" class="rangeSlider">
+                    </div>
+                </div>
+                <p class="mr_tb_sm1">Price: $0 - $1500</p>
+            </div>
+
+            <div class="checkbox_categories">
+                <p class="filter_headings">Category</p>
+                <label class="checkbox">
+                    <input type="checkbox" name="" value="Kids Products">
+                    <span class="chechbox_text">Kids Products</span>
+                </label>
+
+                <label class="checkbox">
+                    <input type="checkbox" name="" value="School Products" checked>
+                    <span class="chechbox_text">School Products</span>
+                </label>
+
+                <label class="checkbox">
+                    <input type="checkbox" name="" value="Office Products">
+                    <span class="chechbox_text">Office Products</span>
+                </label>
+
+                <label class="checkbox">
+                    <input type="checkbox" name="" value="Gift Products">
+                    <span class="chechbox_text">Gift Products</span>
+                </label>
+            </div>
+
+            <div class="rating_component">
+                <p class="filter_headings">Rating</p>
+                <div class="star_rating">
+                    <div class="star_container text_center">
+                        <span class="star star1"><i class="fas fa-star"></i></span>
+                        <span class="star star2"><i class="fas fa-star"></i></span>
+                        <span class="star star3"><i class="fas fa-star"></i></span>
+                        <span class="star star4"><i class="fas fa-star"></i></span>
+                        <span class="star star5"><i class="fas fa-star"></i></span>
+                    </div>
+                    <p class="rating_desc bold text_center">Browse according to rating</p>
+                </div>
+            </div>
+
+            <div class="radio_sort_price">
+                <p class="filter_headings">Sort by</p>
+                <label class="radio">
+                    <input type="radio" value="lowToHigh" name="price" checked>
+                    <span class="radio_text">Price: Low to High</span>
+                </label>
+
+                <label class="radio">
+                    <input type="radio" value="highToLow" name="price">
+                    <span class="radio_text">Price- High to low</span>
+                </label>
+            </div>
+        </div>
+
+        <div class="show_product_cards">
+            <div class="product text_center pointer">
+                <div class="product_img relative">
+                    <img src="../assets/product_1.png" alt="">
+                    <a href="../wishlist/wishlist.html"><i class="product_heart light_primary_color fa-regular fa-heart"></i></a>
+                </div>
+                <p class="p_name margin_sm">Girlish Papery</p>
+                <p class="p_price bold">$15.75</p>
+                <button class="btn product_cart"><i class="mr_sm fa-solid fa-cart-arrow-down"></i>Add to cart</button>
+            </div>
+
+            <div class="product text_center pointer">
+                <div class="product_img relative">
+                    <img src="../assets/product_2.png" alt="">
+                    <a href="../wishlist/wishlist.html"><i class="product_heart light_primary_color fa-regular fa-heart"></i></a>
+                </div>
+                <p class="p_name margin_sm">Elegence Papery</p>
+                <p class="p_price bold">$21.50</p>
+                <button class="btn product_cart"><i class="mr_sm fa-solid fa-cart-arrow-down"></i>Add to cart</button>
+            </div>
+
+            <div class="product text_center pointer">
+                <div class="product_img relative">
+                    <div class="badge bg_danger_color hot_product">hot</div>
+                    <img src="../assets/product_3.png" alt="">
+                    <a href="../wishlist/wishlist.html"><i class="product_heart light_primary_color fa-regular fa-heart"></i></a>
+                </div>
+                <p class="p_name margin_sm">Love Papery</p>
+                <p class="p_price bold">$10.25</p>
+                <button class="btn product_cart"><i class="mr_sm fa-solid fa-cart-arrow-down"></i>Add to cart</button>
+            </div>
+
+            <div class="product text_center pointer">
+                <div class="product_img relative">
+                    <div class="badge bg_light_primary_color discount_product">-27%</div>
+                    <img src="../assets/product_4.png" alt="">
+                    <a href="../wishlist/wishlist.html"><i class="product_heart light_primary_color fa-regular fa-heart"></i></a>
+                </div>
+                <p class="p_name margin_sm">The Baker Papery</p>
+                <p class="p_discount_price grey_text strike bold">$20.15</p><span
+                    class="danger_color bold">$11.75</span>
+                    <button class="btn product_cart"><i class="mr_sm fa-solid fa-cart-arrow-down"></i>Add to cart</button>
+            </div>
+
+            <div class="product text_center pointer">
+                <div class="product_img relative">
+                    <img src="../assets/product_5.png" alt="">
+                    <a href="../wishlist/wishlist.html"><i class="product_heart light_primary_color fa-regular fa-heart"></i></a>
+                </div>
+                <p class="p_name margin_sm">Pinkish Papery</p>
+                <p class="p_price bold">$18.75</p>
+                <button class="btn product_cart"><i class="mr_sm fa-solid fa-cart-arrow-down"></i>Add to cart</button>
+            </div>
+
+            <div class="product text_center pointer">
+                <div class="product_img relative">
+                    <div class="badge bg_danger_color hot_product">hot</div>
+                    <img src="../assets/product_6.png" alt="">
+                    <a href="../wishlist/wishlist.html"><i class="product_heart light_primary_color fa-regular fa-heart"></i></a>
+                </div>
+                <p class="p_name margin_sm">Butterfly Papery</p>
+                <p class="p_price bold">$9.75</p>
+                <button class="btn product_cart"><i class="mr_sm fa-solid fa-cart-arrow-down"></i>Add to cart</button>
+            </div>
+
+            <div class="product text_center pointer">
+                <div class="product_img relative">
+                    <img src="../assets/product_7.png" alt="">
+                    <a href="../wishlist/wishlist.html"><i class="product_heart light_primary_color fa-regular fa-heart"></i></a>
+                </div>
+                <p class="p_name margin_sm">Smallish Gratitude Papery</p>
+                <p class="p_price bold">$5.75</p>
+                <button class="btn product_cart"><i class="mr_sm fa-solid fa-cart-arrow-down"></i>Add to cart</button>
+            </div>
+
+            <div class="product text_center pointer">
+                <div class="product_img relative">
+                    <div class="badge bg_danger_color">hot</div>
+                    <div class="badge outStock_product"><i class="fa-regular fa-face-frown"></i></div>
+                    <img src="../assets/product_8.png" alt="">
+                    <a href="../wishlist/wishlist.html"><i class="product_heart light_primary_color fa-regular fa-heart"></i></a>
+                </div>
+                <p class="p_name margin_sm">Peach Nature Papery</p>
+                <p class="p_price bold">$15.75</p>
+                <button class="btn product_cart"><i class="mr_sm fa-solid fa-cart-arrow-down"></i>Add to cart</button>
+            </div>
+
+            <div class="product text_center pointer">
+                <div class="product_img relative">
+                    <div class="badge bg_danger_color hot_product">hot</div>
+                    <img src="../assets/product_9.png" alt="">
+                    <a href="../wishlist/wishlist.html"><i class="product_heart light_primary_color fa-regular fa-heart"></i></a>
+                </div>
+                <p class="p_name margin_sm">Love Papery</p>
+                <p class="p_price bold">$10.25</p>
+                <button class="btn product_cart"><i class="mr_sm fa-solid fa-cart-arrow-down"></i>Add to cart</button>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="products.js"></script>
+</body>
+
+</html>
