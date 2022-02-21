@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Designing Papery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="home.css">
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav>
+        <div class="nav_top flex space_btw">
+            <p>Free shipping for order above $50</p>
+            <div class="nav_top_right flex align_center">
+                <p class="border_right pd_lr_sm"><i class="mr_sm fa-solid fa-location-dot"></i>Store Location</p>
+                <p class="border_right pd_lr_sm"><i class="mr_sm fa-solid fa-truck-fast"></i>Order Now</p>
+                <p class="border_right pd_lr_sm">English<i class="mr_sm fa-solid fa-angle-down"></i></p>
+                <p class="pd_lr_sm">USD<i class="mr_sm fa-solid fa-angle-down"></i></p>
+                <i class="close_icon fa-solid fa-xmark"></i>
+            </div>
+        </div>
+        <div class="nav_md flex space_btw align_center">
+            <div class="nav_md_right flex">
+                <p class="pd_lr_sm">English<i class="mr_sm fa-solid fa-angle-down"></i></p>
+                <p class="pd_lr_sm">USD<i class="mr_sm fa-solid fa-angle-down"></i></p>
+            </div>
+            <div class="nav_md_center">
+                <a href="../index.html"><img src="../assets/logo.png" alt=""></a>
+            </div>
+            <div class="nav_md_left flex align_center">
+                <a href="./authentication/logout.html"><i class="fa-solid fa-arrow-right-from-bracket"></i></a>
+                <a href="./authentication/signup.html"><i class="fa-regular fa-user"></i></a>
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <a href="./wishlist/wishlist.html"><i class="fa-regular fa-heart"></i></a>
+                <a href="./cartManagement/cart.html"><i class="fa-brands fa-opencart"></i></a>
+            </div>
+        </div>
+        <div class="nav_btm flex space_btw">
+            <a href="#">HOME</a>
+            <a href="#">ABOUT</a>
+            <a href="productListing/products.html">SHOP</a>
+            <a href="productListing/products.html">PRODUCT</a>
+            <a href="wishlist/wishlist.html">WISHLIST</a>
+            <a href="cartManagement/cart.html">ORDER</a>
+        </div>
+    </nav>
+
+    <header>
+        <div class="grid-container">
+            <img class="right_full" src="./assets/first_new.png" alt="">
+            <img class="left_top" src="./assets/left_top_new.png" alt="">
+            <img class="left_bottom" src="./assets/left_bottom_new.png" alt="">
+        </div>
+    </header>
+
+    <section>
+        <div class="show_product_container">
+            <div class="heading text_center relative">
+                <img class="leaf_left" src="./assets/leafLeft.png" alt="">
+                <img class="leaf_right" src="./assets/leafRight.png" alt="">
+                <p class="cursive">Just for you</p>
+            </div>
+            <div class="filter_tabs flex space_btw">
+                <p class="size_md active pointer">New Arrivals</p>
+                <p class="size_md pointer">Sale Items</p>
+                <p class="size_md pointer">Best Sellers</p>
+            </div>
+
+            <div class="show_products flex space_btw">
+                <div class="product text_center pointer">
+                    <div class="product_img relative">
+                        <img src="./assets/product_1.png" alt="">
+                        <i class="product_heart light_primary_color fa-regular fa-heart"></i>
+                    </div>
+                    <p class="p_name margin_sm">Girlish Papery</p>
+                    <p class="p_price bold">$15.75</p>
+                </div>
+
+                <div class="product text_center pointer">
+                    <div class="product_img relative">
+                        <img src="./assets/product_2.png" alt="">
+                        <i class="product_heart light_primary_color fa-regular fa-heart"></i>
+                    </div>
+                    <p class="p_name margin_sm">Elegence Papery</p>
+                    <p class="p_price bold">$21.50</p>
+                </div>
+
+                <div class="product text_center pointer">
+                    <div class="product_img relative">
+                        <div class="badge bg_danger_color hot_product">hot</div>
+                        <img src="./assets/product_3.png" alt="">
+                        <i class="product_heart light_primary_color fa-regular fa-heart"></i>
+                    </div>
+                    <p class="p_name margin_sm">Love Papery</p>
+                    <p class="p_price bold">$10.25</p>
+                </div>
+
+                <div class="product text_center pointer">
+                    <div class="product_img relative">
+                        <div class="badge bg_light_primary_color discount_product">-27%</div>
+                        <img src="./assets/product_4.png" alt="">
+                        <i class="product_heart light_primary_color fa-regular fa-heart"></i>
+                    </div>
+                    <p class="p_name margin_sm">The Baker Papery</p>
+                    <p class="p_discount_price grey_text strike bold">$20.15</p><span
+                        class="danger_color bold">$11.75</span>
+                </div>
+
+                <div class="product text_center pointer">
+                    <div class="product_img relative">
+                        <img src="./assets/product_5.png" alt="">
+                        <i class="product_heart light_primary_color fa-regular fa-heart"></i>
+                    </div>
+                    <p class="p_name margin_sm">Pinkish Papery</p>
+                    <p class="p_price bold">$18.75</p>
+                </div>
+
+                <div class="product text_center pointer">
+                    <div class="product_img relative">
+                        <div class="badge bg_danger_color hot_product">hot</div>
+                        <img src="./assets/product_6.png" alt="">
+                        <i class="product_heart light_primary_color fa-regular fa-heart"></i>
+                    </div>
+                    <p class="p_name margin_sm">Butterfly Papery</p>
+                    <p class="p_price bold">$9.75</p>
+                </div>
+
+                <div class="product text_center pointer">
+                    <div class="product_img relative">
+                        <img src="./assets/product_7.png" alt="">
+                        <i class="product_heart light_primary_color fa-regular fa-heart"></i>
+                    </div>
+                    <p class="p_name margin_sm">Smallish Gratitude Papery</p>
+                    <p class="p_price bold">$5.75</p>
+                </div>
+
+                <div class="product text_center pointer">
+                    <div class="product_img relative">
+                        <div class="badge bg_danger_color">hot</div>
+                        <div class="badge outStock_product"><i class="fa-regular fa-face-frown"></i></div>
+                        <img src="./assets/product_8.png" alt="">
+                        <i class="product_heart light_primary_color fa-regular fa-heart"></i>
+                    </div>
+                    <p class="p_name margin_sm">Peach Nature Papery</p>
+                    <p class="p_price bold">$15.75</p>
+                </div>
+            </div>
+
+            <div class="more text_center mr_3 pointer"><i class="mr_sm fa-solid fa-plus"></i>Load More</div>
+        </div>
+    </section>
+
+    <section>
+        <div class="banner flex">
+            <img src="./assets/banner_img_2.png" alt="" class="banner_img">
+            <div class="flex_50 text_center">
+                <p class="banner_heading text_center cursive color_primary">Valentine's Special</p>
+                <p class="inline">EVERYTHING WITH CODE</p>
+                <img src="./assets/discount.png" alt="" class="discount_img">
+                <h1 class="size_xl mr_1 dull_black">30% OFF</h1>
+                <button class="pointer btn_ecom btn_shop_now">SHOP NOW</button>
+            </div>
+        </div>
+
+        <div class="banner_features flex space_btw">
+            <div class="feature flex align_center">
+                <div class="icon_div">
+                    <i class="size_sm fa-brands fa-opencart"></i>
+                </div>
+                <div class="feature_content">
+                    <h3>Free Shipping</h3>
+                    <p class="dark_grey_text">All orders above $59</p>
+                </div>
+            </div>
+
+            <div class="feature flex align_center">
+                <div class="icon_div">
+                    <i class="size_sm fa-solid fa-arrow-rotate-left"></i>
+                </div>
+                <div class="feature_content">
+                    <h3>Free Return</h3>
+                    <p class="dark_grey_text">Free 7 days return</p>
+                </div>
+            </div>
+
+            <div class="feature flex align_center">
+                <div class="icon_div">
+                    <i class="size_sm fa-solid fa-headset"></i>
+                </div>
+                <div class="feature_content">
+                    <h3>24/7 Support</h3>
+                    <p class="dark_grey_text">Dedicated support</p>
+                </div>
+            </div>
+
+            <div class="feature flex align_center">
+                <div class="icon_div">
+                    <i class="size_sm fa-solid fa-gift"></i>
+                </div>
+                <div class="feature_content">
+                    <h3>Gift Cards</h3>
+                    <p class="dark_grey_text">Cards promotion</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="flex mr_3 space_btw">
+        <div class="potrait_img flex_30">
+            <img src="./assets/gift_ideas.png" alt="" class="side_img">
+        </div>
+
+        <div class="top_rates flex_30">
+            <div class="items_header flex align_center space_btw">
+                <h3>Top rate</h3>
+                <div class="arrows">
+                    <i class="mr_sm fa-solid fa-angle-left"></i>
+                    <i class="fa-solid fa-angle-right"></i>
+                </div>
+            </div>
+            <div class="item_container">
+                <div class="item pd_1_tb flex">
+                    <div class="item_card">
+                        <img src="./assets/product_12.png" alt="" class="item_img">
+                    </div>
+                    <div class="item_content">
+                        <p>Hello Ocean Set</p>
+                        <p class="p_discount_price mr_tb_sm grey_text strike bold">$20.15</p><span
+                            class="danger_color bold">$11.75</span>
+                        <div class="rating">
+                            <i class="yellow fa-solid fa-star"></i>
+                            <i class="yellow fa-solid fa-star"></i>
+                            <i class="yellow fa-solid fa-star"></i>
+                            <i class="yellow fa-solid fa-star"></i>
+                            <i class="yellow fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item pd_1_tb flex">
+                    <div class="item_card">
+                        <img src="./assets/product_1.png" alt="" class="item_img">
+                    </div>
+                    <div class="item_content">
+                        <p>Girlish Papery</p>
+                        <p class="p_price bold">$15.75</p>
+                        <div class="rating">
+                            <i class="yellow fa-solid fa-star"></i>
+                            <i class="yellow fa-solid fa-star"></i>
+                            <i class="yellow fa-solid fa-star"></i>
+                            <i class="yellow fa-solid fa-star"></i>
+                            <i class="yellow fa-solid fa-star-half"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item pd_1_tb flex">
+                    <div class="item_card">
+                        <img src="./assets/product_8.png" alt="" class="item_img">
+                    </div>
+                    <div class="item_content">
+                        <p>Peach Nature Papery</p>
+                        <p class="p_price bold">$15.75</p>
+                        <div class="rating">
+                            <i class="yellow fa-solid fa-star"></i>
+                            <i class="yellow fa-solid fa-star"></i>
+                            <i class="yellow fa-solid fa-star"></i>
+                            <i class="yellow fa-solid fa-star"></i>
+                            <i class="yellow fa-solid fa-star-half"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="sale_items flex_30">
+            <div class="items_header flex align_center space_btw">
+                <h3>Sale Item</h3>
+                <div class="arrows">
+                    <i class="mr_sm fa-solid fa-angle-left"></i>
+                    <i class="fa-solid fa-angle-right"></i>
+                </div>
+            </div>
+            <div class="item_container">
+                <div class="item pd_1_tb flex">
+                    <div class="item_card">
+                        <img src="./assets/product_3.png" alt="" class="item_img">
+                    </div>
+                    <div class="item_content">
+                        <p>Love Papery (Pack of 6)</p>
+                        <p class="p_discount_price mr_tb_sm grey_text strike bold">$61.50</p><span
+                            class="danger_color bold">$58.15</span>
+                        <div class="rating">
+                            <i class="yellow fa-solid fa-star"></i>
+                            <i class="yellow fa-solid fa-star"></i>
+                            <i class="yellow fa-solid fa-star"></i>
+                            <i class="yellow fa-solid fa-star"></i>
+                            <i class="yellow fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item pd_1_tb flex">
+                    <div class="item_card">
+                        <img src="./assets/product_2.png" alt="" class="item_img">
+                    </div>
+                    <div class="item_content">
+                        <p>Elegence Papery</p>
+                        <p class="p_price bold">$21.50</p>
+                        <div class="rating">
+                            <i class="yellow fa-solid fa-star"></i>
+                            <i class="yellow fa-solid fa-star"></i>
+                            <i class="yellow fa-solid fa-star"></i>
+                            <i class="yellow fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item pd_1_tb flex">
+                    <div class="item_card">
+                        <img src="./assets/product_6.png" alt="" class="item_img">
+                    </div>
+                    <div class="item_content">
+                        <p>Butterfly Papery</p>
+                        <p class="p_price bold">$9.75</p>
+                        <div class="rating">
+                            <i class="yellow fa-solid fa-star"></i>
+                            <i class="yellow fa-solid fa-star"></i>
+                            <i class="yellow fa-solid fa-star"></i>
+                            <i class="yellow fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter flex">
+        <div class="flex_50 color_primary mr_3 cursive text_center">Subscribe <br> to stay connected <br> with us</div>
+        <div class="newsletter_content size_md pd_tb_6">
+            <h3>Subscribe to our newsletter</h3>
+            <div class="search relative">
+                <input type="text" placeholder="Your email address">
+                <button class="btn_ecom btn_subs">Subscribe</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="flex mr_3 space_btw">
+        <div class="footer_left flex_30">
+            <p class="footer_heading size_md mr_tb_md">Contact us</p>
+            <p class="mr_tb_md">Akshya Nagar 1st Block 1st Cross</p>
+            <p class="mr_tb_md">Rammurthy nagar, Bangalore-560016 </p>
+            <p class="mr_tb_md"> simrangangwani3107@gmail.com </p>
+            <p class="mr_tb_md">(+91)9876 54321</p>
+            <p class="mr_tb_md"><a href="#" class="danger_color">www.simrangangwani.com</a></p>
+            <div class="social_icons mr_tb_md flex">
+                <a class="side_icon" target="_blank" href="https://github.com/simran61"><i
+                        class="size_md fab fa-github-alt"></i></a></li>
+                <a class="side_icon" target="_blank" href="https://www.linkedin.com/in/simran-gangwani-b93a441b2/"><i
+                        class="size_md fab fa-linkedin-in"></i></a></li>
+                <a class="side_icon" target="_blank" href="https://www.instagram.com/simran_wb65/"><i
+                        class="size_md fab fa-instagram"></i></a></li>
+                <a class="side_icon" target="_blank" style="margin-bottom: 0px;"
+                    href="https://twitter.com/SimranGangwani3"><i class="size_md fab fa-twitter"></i></a></li>
+            </div>
+        </div>
+
+        <div class="footer_center flex_15">
+            <p class="footer_heading size_md mr_tb_md">Contact us</p>
+            <p class="mr_tb_md">About us</p>
+            <p class="mr_tb_md">Before you go</p>
+            <p class="mr_tb_md">Online check in</p>
+            <p class="mr_tb_md">FAQ</p>
+        </div>
+
+        <div class="footer_center flex_15">
+            <p class="footer_heading size_md mr_tb_md">Contact us</p>
+            <p class="mr_tb_md">How it works</p>
+            <p class="mr_tb_md">About us</p>
+            <p class="mr_tb_md">Affiliate</p>
+            <p class="mr_tb_md">Popular posts</p>
+        </div>
+
+        <div class="footer_right flex_30">
+            <p class="footer_heading size_md mr_tb_md">Instagram</p>
+            <div class="flex gap_0_5">
+                <img src="./assets/footer1.jpg" alt="" class="footer_img">
+                <img src="./assets/footer2.jpg" alt="" class="footer_img">
+                <img src="./assets/footer3.jpg" alt="" class="footer_img">
+                <img src="./assets/footer4.jpg" alt="" class="footer_img">
+                <img src="./assets/footer5.jpg" alt="" class="footer_img">
+                <img src="./assets/footer6.jpg" alt="" class="footer_img">
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
